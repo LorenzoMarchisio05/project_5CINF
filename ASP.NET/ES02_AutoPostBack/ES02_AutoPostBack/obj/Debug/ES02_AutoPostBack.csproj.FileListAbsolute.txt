@@ -1,0 +1,7 @@
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES02_AutoPostBack\ES02_AutoPostBack\bin\ES02_AutoPostBack.dll.config
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES02_AutoPostBack\ES02_AutoPostBack\bin\ES02_AutoPostBack.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES02_AutoPostBack\ES02_AutoPostBack\bin\ES02_AutoPostBack.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES02_AutoPostBack\ES02_AutoPostBack\obj\Debug\ES02_AutoPostBack.csproj.AssemblyReference.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES02_AutoPostBack\ES02_AutoPostBack\obj\Debug\ES02_AutoPostBack.csproj.CoreCompileInputs.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES02_AutoPostBack\ES02_AutoPostBack\obj\Debug\ES02_AutoPostBack.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES02_AutoPostBack\ES02_AutoPostBack\obj\Debug\ES02_AutoPostBack.pdb

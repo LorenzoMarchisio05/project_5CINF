@@ -10,6 +10,13 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:CheckBox ID="chkAutoPostBack" Text="AutoPostBack" runat="server" OnCheckedChanged="chkAutoPostBack_CheckedChanged" />
+            <hr />
+            <asp:DropDownList ID="cmbColori" runat="server" OnSelectedIndexChanged="cmbColori_SelectedIndexChanged"></asp:DropDownList>
+            <hr />
+            <asp:Panel ID="pnlColore" Height="65px" Width="130px" runat="server"></asp:Panel>
+            <hr />
+            <asp:Button ID="btnInvia" runat="server" Text="Invia" />
         </div>
     </form>
 </body>
