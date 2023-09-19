@@ -1,0 +1,7 @@
+C:\Users\germano.pagliero\Desktop\5infC\Es01_primaPagina\Es01_primaPagina\bin\Es01_primaPagina.dll.config
+C:\Users\germano.pagliero\Desktop\5infC\Es01_primaPagina\Es01_primaPagina\bin\Es01_primaPagina.dll
+C:\Users\germano.pagliero\Desktop\5infC\Es01_primaPagina\Es01_primaPagina\bin\Es01_primaPagina.pdb
+C:\Users\germano.pagliero\Desktop\5infC\Es01_primaPagina\Es01_primaPagina\obj\Debug\Es01_primaPagina.csproj.AssemblyReference.cache
+C:\Users\germano.pagliero\Desktop\5infC\Es01_primaPagina\Es01_primaPagina\obj\Debug\Es01_primaPagina.csproj.CoreCompileInputs.cache
+C:\Users\germano.pagliero\Desktop\5infC\Es01_primaPagina\Es01_primaPagina\obj\Debug\Es01_primaPagina.dll
+C:\Users\germano.pagliero\Desktop\5infC\Es01_primaPagina\Es01_primaPagina\obj\Debug\Es01_primaPagina.pdb
