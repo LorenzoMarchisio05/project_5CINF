@@ -1,6 +1,7 @@
 using System;
 using System.Data;
 using System.Data.SqlClient;
+using System.Xml.Linq;
 
 namespace Wheater.Commons.DB
 {
@@ -13,6 +14,11 @@ namespace Wheater.Commons.DB
             _connectionString = connectionString;
         }
 
+        public static string GetConnectionStringFromDBName(string name)
+        {
+            var db = AppDomain.CurrentDomain.BaseDirectory + name;
+            return $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={db};Integrated Security=True;Connect Timeout=30";
+        }
 
         private bool TryInitConnection(out SqlConnection connection)
         {
@@ -41,7 +47,7 @@ namespace Wheater.Commons.DB
 
             if (!connected)
             {
-                return default;
+                return default(DataTable);
             }
 
             using (connection)
@@ -81,7 +87,7 @@ namespace Wheater.Commons.DB
 
             if (!connected)
             {
-                return default;
+                return default(object);
             }
 
             using (connection)

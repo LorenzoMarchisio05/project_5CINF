@@ -1,0 +1,7 @@
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer\bin\ES04_SqlServer.dll.config
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer\bin\ES04_SqlServer.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer\bin\ES04_SqlServer.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer\obj\Debug\ES04_SqlServer.csproj.AssemblyReference.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer\obj\Debug\ES04_SqlServer.csproj.CoreCompileInputs.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer\obj\Debug\ES04_SqlServer.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer\obj\Debug\ES04_SqlServer.pdb
