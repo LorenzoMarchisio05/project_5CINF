@@ -2,6 +2,7 @@ using System;
 using System.Data;
 using System.Data.SqlClient;
 
+
 namespace Wheater.Commons.DB
 {
     public sealed class AdoNetController
