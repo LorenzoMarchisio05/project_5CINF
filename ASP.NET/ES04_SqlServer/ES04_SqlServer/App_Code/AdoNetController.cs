@@ -1,23 +1,22 @@
 using System;
 using System.Data;
 using System.Data.SqlClient;
-using System.Xml.Linq;
 
 namespace Wheater.Commons.DB
 {
     public sealed class AdoNetController
     {
-        private string _connectionString;
+        private readonly string _connectionString;
+		
+		public static string GetConnectionStringFromDBName(string name)
+        {
+            var db = AppDomain.CurrentDomain.BaseDirectory + name;
+            return @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=" + db + @";Integrated Security=True;Connect Timeout=30";
+        }
 
         public AdoNetController(string connectionString)
         {
             _connectionString = connectionString;
-        }
-
-        public static string GetConnectionStringFromDBName(string name)
-        {
-            var db = AppDomain.CurrentDomain.BaseDirectory + name;
-            return $@"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename={db};Integrated Security=True;Connect Timeout=30";
         }
 
         private bool TryInitConnection(out SqlConnection connection)
@@ -43,7 +42,8 @@ namespace Wheater.Commons.DB
 
         public DataTable ExecuteQuery(SqlCommand command)
         {
-            var connected = TryInitConnection(out var connection);
+			SqlConnection connection;
+            var connected = TryInitConnection(out connection);
 
             if (!connected)
             {
@@ -66,7 +66,8 @@ namespace Wheater.Commons.DB
 
         public int ExecuteNonQuery(SqlCommand command)
         {
-            var connected = TryInitConnection(out var connection);
+			SqlConnection connection;
+            var connected = TryInitConnection(out connection);
 
             if (!connected)
             {
@@ -83,11 +84,12 @@ namespace Wheater.Commons.DB
 
         public object ExecuteScalar(SqlCommand command)
         {
-            var connected = TryInitConnection(out var connection);
+			SqlConnection connection;
+            var connected = TryInitConnection(out connection);
 
             if (!connected)
             {
-                return default(object);
+                return null;
             }
 
             using (connection)
