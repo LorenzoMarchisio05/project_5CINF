@@ -1,0 +1,43 @@
+public sealed class Materie
+{
+	public int IdMateria { get; set; }
+	public string Materia { get; set; }
+
+	public Materie(int idMateria,string materia)
+	{
+		this.IdMateria = idMateria;
+		this.Materia = materia;
+	}
+}
+
+public sealed class Alunni
+{
+	public int IdAlunno { get; set; }
+	public string Nome { get; set; }
+	public string Cognome { get; set; }
+
+	public Alunni(int idAlunno,string nome,string cognome)
+	{
+		this.IdAlunno = idAlunno;
+		this.Nome = nome;
+		this.Cognome = cognome;
+	}
+}
+
+public sealed class Voti
+{
+	public int IdVoto { get; set; }
+	public int IdAlunno { get; set; }
+	public int IdMateria { get; set; }
+	public float Voto { get; set; }
+	public DateTime DataVoto { get; set; }
+
+	public Voti(int idVoto, int idAlunno, int idMateria, float voto, DateTime dataVoto)
+	{
+		this.IdVoto = idVoto;
+		this.IdAlunno = idAlunno;
+		this.IdMateria = idMateria;
+		this.Voto = voto;
+		this.DataVoto = dataVoto;
+	}
+}
