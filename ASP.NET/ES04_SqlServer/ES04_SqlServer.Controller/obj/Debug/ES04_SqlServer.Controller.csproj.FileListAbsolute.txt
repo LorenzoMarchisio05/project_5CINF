@@ -1,0 +1,9 @@
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer.Controller\bin\Debug\ES04_SqlServer.Controller.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer.Controller\bin\Debug\ES04_SqlServer.Controller.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer.Controller\obj\Debug\ES04_SqlServer.Controller.csproj.AssemblyReference.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer.Controller\obj\Debug\ES04_SqlServer.Controller.csproj.CoreCompileInputs.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer.Controller\obj\Debug\ES04_SqlServer.Controller.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer.Controller\obj\Debug\ES04_SqlServer.Controller.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer.Controller\bin\Debug\ES04_SqlServer.Model.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer.Controller\bin\Debug\ES04_SqlServer.Model.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES04_SqlServer\ES04_SqlServer.Controller\obj\Debug\ES04_SqlServer.Controller.csproj.CopyComplete
