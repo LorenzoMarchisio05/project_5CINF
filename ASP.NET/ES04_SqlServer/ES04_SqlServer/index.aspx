@@ -10,6 +10,9 @@
 <body>
     <form id="form1" runat="server">
         <div>
+            <asp:HyperLink NavigateUrl="alunni.aspx" runat="server" >Alunni</asp:HyperLink>
+            <asp:HyperLink NavigateUrl="materie.aspx" runat="server" >Materie</asp:HyperLink>
+            <asp:HyperLink NavigateUrl="voti.aspx" runat="server" >Voti</asp:HyperLink>
         </div>
     </form>
 </body>

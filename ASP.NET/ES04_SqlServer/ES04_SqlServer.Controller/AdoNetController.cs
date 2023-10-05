@@ -2,7 +2,7 @@ using System;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace Wheater.Commons.DB
+namespace ES04_SqlServer.Controller
 {
     public sealed class AdoNetController
     {

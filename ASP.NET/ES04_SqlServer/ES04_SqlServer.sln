@@ -5,6 +5,10 @@ VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES04_SqlServer", "ES04_SqlServer\ES04_SqlServer.csproj", "{060767E9-B3FF-49EE-A23C-6B923041FDA8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES04_SqlServer.Model", "ES04_SqlServer.Model\ES04_SqlServer.Model.csproj", "{298D1CA4-6018-4E91-A64F-F86AA89FB915}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES04_SqlServer.Controller", "ES04_SqlServer.Controller\ES04_SqlServer.Controller.csproj", "{04645081-BA31-4783-BFCB-FF63B5622DCB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{060767E9-B3FF-49EE-A23C-6B923041FDA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{060767E9-B3FF-49EE-A23C-6B923041FDA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{060767E9-B3FF-49EE-A23C-6B923041FDA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{298D1CA4-6018-4E91-A64F-F86AA89FB915}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{298D1CA4-6018-4E91-A64F-F86AA89FB915}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{298D1CA4-6018-4E91-A64F-F86AA89FB915}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{298D1CA4-6018-4E91-A64F-F86AA89FB915}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04645081-BA31-4783-BFCB-FF63B5622DCB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04645081-BA31-4783-BFCB-FF63B5622DCB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04645081-BA31-4783-BFCB-FF63B5622DCB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04645081-BA31-4783-BFCB-FF63B5622DCB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
