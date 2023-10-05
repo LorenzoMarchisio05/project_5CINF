@@ -1,0 +1,10 @@
+/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/bin/Debug/netstandard2.0/SourceGenerators.Attributes.deps.json
+/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/bin/Debug/netstandard2.0/SourceGenerators.Attributes.dll
+/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/bin/Debug/netstandard2.0/SourceGenerators.Attributes.pdb
+/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/obj/Debug/netstandard2.0/SourceGenerators.Attributes.csproj.AssemblyReference.cache
+/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/obj/Debug/netstandard2.0/SourceGenerators.Attributes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/obj/Debug/netstandard2.0/SourceGenerators.Attributes.AssemblyInfoInputs.cache
+/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/obj/Debug/netstandard2.0/SourceGenerators.Attributes.AssemblyInfo.cs
+/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/obj/Debug/netstandard2.0/SourceGenerators.Attributes.csproj.CoreCompileInputs.cache
+/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/obj/Debug/netstandard2.0/SourceGenerators.Attributes.dll
+/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/obj/Debug/netstandard2.0/SourceGenerators.Attributes.pdb

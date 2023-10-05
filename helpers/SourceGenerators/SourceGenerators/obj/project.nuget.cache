@@ -1,12 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "SDgNs6hVYI47hbLizhbNkNQw59Mz2ovWLfJB99qasMuJ9O0Txy5AVKUEYyRRuezuc8/+O62nUUHzNIlaxzlugg==",
+  "dgSpecHash": "Wazs1GqOAEbsU0XYXpSrcQeoTyZOMt3AL/RmKackFNf21eePpX1kcHgRIuExeSOjGhK9IW2HTm00aqhHxPW/UQ==",
   "success": true,
-  "projectFilePath": "/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.csproj",
+  "projectFilePath": "/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators/SourceGenerators.csproj",
   "expectedPackageFiles": [
     "/Users/lorenzomarchisio/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4/microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
     "/Users/lorenzomarchisio/.nuget/packages/microsoft.codeanalysis.common/4.7.0/microsoft.codeanalysis.common.4.7.0.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/microsoft.codeanalysis.csharp/4.7.0/microsoft.codeanalysis.csharp.4.7.0.nupkg.sha512",
     "/Users/lorenzomarchisio/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "/Users/lorenzomarchisio/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
     "/Users/lorenzomarchisio/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",

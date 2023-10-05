@@ -1,0 +1,3 @@
+is_global = true
+build_property.RootNamespace = SourceGenerators.Attributes
+build_property.ProjectDir = /Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/
