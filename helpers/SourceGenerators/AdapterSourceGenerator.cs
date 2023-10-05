@@ -33,24 +33,26 @@ namespace SourceGenerators
                                  select property;
 
                 stringBuilder.Clear();
-
+                
                 stringBuilder.AppendLine("namespace GenerateCode {");
-                stringBuilder.AppendLine($"public static class {type.Name} {{");
+                stringBuilder.AppendLine($"public static class {type.Name}Adapter {{");
 
                 methodBuilder.Clear();
+                // Adapt single
                 methodBuilder.AppendLine($"public static {type.Name} Adapt(System.Data.DataRowCollection row) {{");
                 methodBuilder.AppendLine($"var obj = new {type.Name}();");
-
                 foreach(var property in properties)
                 {
                     methodBuilder.Append($"obj.{property.Name} = ");
                     methodBuilder.AppendLine($"row[\"{property.Name}\"]");
                 }
-
                 methodBuilder.AppendLine("return obj;");
                 methodBuilder.AppendLine("}");
+                // End Adapt single
 
                 methodBuilder.AppendLine("");
+
+                // Adapt multi
                 methodBuilder.AppendLine($"public static System.Collections.Generic.IEnumerable<{type.Name}> Adapt(System.Data.DataTable dataTable) {{");
                 methodBuilder.AppendLine("var array = new {type.Name}[dataTable.Rows.Count];");
                 methodBuilder.AppendLine("var i = 0;");
@@ -60,10 +62,13 @@ namespace SourceGenerators
                 methodBuilder.AppendLine("}");
                 methodBuilder.AppendLine("return array;");
                 methodBuilder.AppendLine("}");
+                // End Adapt multi
 
                 stringBuilder.Append(methodBuilder.ToString());
                 
+                // class closing
                 stringBuilder.AppendLine("}");
+                // namespace closing
                 stringBuilder.AppendLine("}");
 
                 context.RegisterPostInitializationOutput(ctx =>
