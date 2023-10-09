@@ -1,8 +1,10 @@
-<Project Sdk="Microsoft.NET.Sdk">
+﻿<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
         <TargetFramework>netstandard2.0</TargetFramework>
         <EmitCompilerGeneratedFiles>true</EmitCompilerGeneratedFiles>
+        <!-- 👇 We don't want to reference the source generator dll directly in consuming projects -->
+        <IncludeBuildOutput>false</IncludeBuildOutput>
     </PropertyGroup>
 
     <ItemGroup>
@@ -12,5 +14,12 @@
     <ItemGroup>
       <ProjectReference Include="..\SourceGenerators.Attributes\SourceGenerators.Attributes.csproj" />
     </ItemGroup>
+  
+    <!-- This ensures the library will be packaged as a source generator when we use `dotnet pack` -->
+    <ItemGroup>
+      <None Include="$(OutputPath)\$(AssemblyName).dll" Pack="true" 
+          PackagePath="analyzers/dotnet/cs" Visible="false" />
+    </ItemGroup>
+  
 
 </Project>

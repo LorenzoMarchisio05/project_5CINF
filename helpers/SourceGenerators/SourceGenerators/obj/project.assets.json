@@ -21,14 +21,10 @@
           "System.Threading.Tasks.Extensions": "4.5.4"
         },
         "compile": {
-          "lib/netstandard2.0/Microsoft.CodeAnalysis.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/Microsoft.CodeAnalysis.dll": {
-            "related": ".pdb;.xml"
-          }
+          "lib/netstandard2.0/Microsoft.CodeAnalysis.dll": {}
         },
         "resource": {
           "lib/netstandard2.0/cs/Microsoft.CodeAnalysis.resources.dll": {
@@ -99,14 +95,10 @@
       "System.Buffers/4.5.1": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Buffers.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Buffers.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Buffers.dll": {}
         }
       },
       "System.Collections.Immutable/7.0.0": {
@@ -116,14 +108,10 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Collections.Immutable.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Collections.Immutable.dll": {}
         }
       },
       "System.Memory/4.5.5": {
@@ -134,27 +122,19 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "compile": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Memory.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Memory.dll": {}
         }
       },
       "System.Numerics.Vectors/4.4.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
+          "ref/netstandard2.0/System.Numerics.Vectors.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Numerics.Vectors.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Numerics.Vectors.dll": {}
         }
       },
       "System.Reflection.Metadata/7.0.0": {
@@ -164,27 +144,19 @@
           "System.Memory": "4.5.5"
         },
         "compile": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Reflection.Metadata.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Reflection.Metadata.dll": {}
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {
         "type": "package",
         "compile": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Runtime.CompilerServices.Unsafe.dll": {}
         }
       },
       "System.Text.Encoding.CodePages/7.0.0": {
@@ -194,14 +166,10 @@
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "compile": {
-          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Text.Encoding.CodePages.dll": {}
         }
       },
       "System.Threading.Tasks.Extensions/4.5.4": {
@@ -210,14 +178,10 @@
           "System.Runtime.CompilerServices.Unsafe": "4.5.3"
         },
         "compile": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         },
         "runtime": {
-          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {
-            "related": ".xml"
-          }
+          "lib/netstandard2.0/System.Threading.Tasks.Extensions.dll": {}
         }
       },
       "SourceGenerators.Attributes/1.0.0": {
@@ -1305,32 +1269,40 @@
     ]
   },
   "packageFolders": {
-    "/Users/lorenzomarchisio/.nuget/packages/": {}
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators/SourceGenerators.csproj",
+      "projectUniqueName": "C:\\Users\\l.marchisio.2268\\Desktop\\project_5CINF\\helpers\\SourceGenerators\\SourceGenerators\\SourceGenerators.csproj",
       "projectName": "SourceGenerators",
-      "projectPath": "/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators/SourceGenerators.csproj",
-      "packagesPath": "/Users/lorenzomarchisio/.nuget/packages/",
-      "outputPath": "/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators/obj/",
+      "projectPath": "C:\\Users\\l.marchisio.2268\\Desktop\\project_5CINF\\helpers\\SourceGenerators\\SourceGenerators\\SourceGenerators.csproj",
+      "packagesPath": "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\l.marchisio.2268\\Desktop\\project_5CINF\\helpers\\SourceGenerators\\SourceGenerators\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/lorenzomarchisio/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\l.marchisio.2268\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netstandard2.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netstandard2.0": {
-          "targetAlias": "netstandard2.0",
           "projectReferences": {
-            "/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/SourceGenerators.Attributes.csproj": {
-              "projectPath": "/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/SourceGenerators.Attributes.csproj"
+            "C:\\Users\\l.marchisio.2268\\Desktop\\project_5CINF\\helpers\\SourceGenerators\\SourceGenerators.Attributes\\SourceGenerators.Attributes.csproj": {
+              "projectPath": "C:\\Users\\l.marchisio.2268\\Desktop\\project_5CINF\\helpers\\SourceGenerators\\SourceGenerators.Attributes\\SourceGenerators.Attributes.csproj"
             }
           }
         }
@@ -1343,7 +1315,6 @@
     },
     "frameworks": {
       "netstandard2.0": {
-        "targetAlias": "netstandard2.0",
         "dependencies": {
           "Microsoft.CodeAnalysis.Common": {
             "target": "Package",
@@ -1362,12 +1333,11 @@
           "net47",
           "net471",
           "net472",
-          "net48",
-          "net481"
+          "net48"
         ],
         "assetTargetFallback": true,
         "warn": true,
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.402/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

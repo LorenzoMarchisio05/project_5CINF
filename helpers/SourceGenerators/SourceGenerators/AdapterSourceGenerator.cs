@@ -12,6 +12,7 @@ namespace SourceGenerators
     {
         public void Initialize(IncrementalGeneratorInitializationContext context)
         {
+            throw new Exception("run");
             var typesWithMyAttribute =
                 from a in AppDomain.CurrentDomain.GetAssemblies().AsParallel()
                 from t in a.GetTypes()
