@@ -31,5 +31,14 @@ namespace ES04_SqlServer
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.DropDownList cmbAlunni;
+
+        /// <summary>
+        /// Controllo dgvAlunni.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.GridView dgvAlunni;
     }
 }

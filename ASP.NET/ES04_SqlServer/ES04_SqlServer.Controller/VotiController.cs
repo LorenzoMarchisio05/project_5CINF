@@ -43,9 +43,10 @@ namespace ES04_SqlServer.Controller
                 var command = new SqlCommand
                 {
                     CommandType = CommandType.Text,
-                    CommandText = @"SELECT idVoto, voto 
-                                    FROM VOTI
-                                    WHERE idAlunno = @idAlunno",
+                    CommandText = @"SELECT materia, voto, dataVoto
+                                    FROM VOTI, MATERIE
+                                    WHERE VOTI.idMateria = MATERIE.idMateria 
+                                        AND idAlunno = @idAlunno",
                     Parameters =
                     {
                         new SqlParameter("@idAlunno", idAlunno),

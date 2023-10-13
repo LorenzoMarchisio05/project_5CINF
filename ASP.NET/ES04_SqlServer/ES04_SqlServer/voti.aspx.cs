@@ -49,6 +49,7 @@ namespace ES04_SqlServer
             var voti = _votiController.fetchVoti(idAlunno);
 
             dgvVoti.DataSource = voti;
+            dgvVoti.DataBind();
         }
     }
 }

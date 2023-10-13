@@ -10,14 +10,36 @@
 <body>
     <form id="form1" runat="server">
         <div>
-            <h1>Alunni</h1>
+            <h1>Elenco Alunni</h1>
             <asp:DropDownList 
                 ID="cmbAlunni" 
                 runat="server" 
                 AutoPostBack="true" 
                 OnSelectedIndexChanged="cmbAlunni_SelectedIndexChanged">
-
             </asp:DropDownList>
+
+            <h1>Elenco Alunni GridView</h1>
+             <asp:GridView ID="dgvAlunni" runat="server" AutoGenerateColumns="False" CellPadding="5" OnRowCommand="dgvAlunni_RowCommand" DataKeyNames="idAlunno">
+                <Columns>
+                    <asp:BoundField DataField="idAlunno" HeaderText="Id Alunno" Visible="false">
+                        <HeaderStyle HorizontalAlign="Center" VerticalAlign="Middle" />
+                        <ItemStyle HorizontalAlign="Center" />
+                    </asp:BoundField>
+
+                    <asp:BoundField DataField="nome" HeaderText="Nome">
+                        <HeaderStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                        <ItemStyle HorizontalAlign="Center" />
+                    </asp:BoundField>
+
+                    <asp:BoundField DataField="cognome" HeaderText="Cognome">
+                        <HeaderStyle HorizontalAlign="Left" VerticalAlign="Middle" />
+                        <ItemStyle HorizontalAlign="Center" />
+                    </asp:BoundField>
+
+                    <asp:ButtonField ButtonType="Button" HeaderText="Dettagli" Text="Vedi Dettaglio" CommandName="mostraDettagli" />
+
+                </Columns>
+            </asp:GridView>
         </div>
     </form>
 </body>
