@@ -1,21 +1,22 @@
 {
   "version": 2,
-  "dgSpecHash": "Wazs1GqOAEbsU0XYXpSrcQeoTyZOMt3AL/RmKackFNf21eePpX1kcHgRIuExeSOjGhK9IW2HTm00aqhHxPW/UQ==",
+  "dgSpecHash": "WjEDpPuyhpbTRSye/dM5n1CSNIVtFmi6REygtpgEx5A7Zb1F76P9tLz/PGyXLQj3ZaDThS+WpAj2dAo5hcfrEg==",
   "success": true,
-  "projectFilePath": "/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators/SourceGenerators.csproj",
+  "projectFilePath": "C:\\Users\\l.marchisio.2268\\Desktop\\project_5CINF\\helpers\\SourceGenerators\\SourceGenerators\\SourceGenerators.csproj",
   "expectedPackageFiles": [
-    "/Users/lorenzomarchisio/.nuget/packages/microsoft.codeanalysis.analyzers/3.3.4/microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/microsoft.codeanalysis.common/4.7.0/microsoft.codeanalysis.common.4.7.0.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/system.buffers/4.5.1/system.buffers.4.5.1.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/system.collections.immutable/7.0.0/system.collections.immutable.7.0.0.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/system.memory/4.5.5/system.memory.4.5.5.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/system.numerics.vectors/4.4.0/system.numerics.vectors.4.4.0.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/system.reflection.metadata/7.0.0/system.reflection.metadata.7.0.0.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/system.runtime.compilerservices.unsafe/6.0.0/system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/system.text.encoding.codepages/7.0.0/system.text.encoding.codepages.7.0.0.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\3.3.4\\microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\microsoft.codeanalysis.common\\4.3.1\\microsoft.codeanalysis.common.4.3.1.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\microsoft.codeanalysis.csharp\\4.3.1\\microsoft.codeanalysis.csharp.4.3.1.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\system.buffers\\4.5.1\\system.buffers.4.5.1.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\system.collections.immutable\\6.0.0\\system.collections.immutable.6.0.0.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\system.memory\\4.5.4\\system.memory.4.5.4.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\system.numerics.vectors\\4.4.0\\system.numerics.vectors.4.4.0.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\system.reflection.metadata\\5.0.0\\system.reflection.metadata.5.0.0.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\6.0.0\\system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\system.text.encoding.codepages\\6.0.0\\system.text.encoding.codepages.6.0.0.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }

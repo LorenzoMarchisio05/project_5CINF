@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "b58adtJhxrSR+o9swp7qsnYho0UFNuBFVHGf6Da37Xxu1voE9/a/NdI5OWbKpWt3zG+PUSg8ITf/dCZ93ieObg==",
+  "dgSpecHash": "XNSadYDFnnzUrGZVHJZhV41aYzZZeXwv6TddjMsEVzgC/qjmli8ex3N2WAmCYAwBHdZXqAc+NAJlBfJEAGMpYw==",
   "success": true,
-  "projectFilePath": "/Users/lorenzomarchisio/Desktop/project_5CINF/helpers/SourceGenerators/SourceGenerators.Attributes/SourceGenerators.Attributes.csproj",
+  "projectFilePath": "C:\\Users\\l.marchisio.2268\\Desktop\\project_5CINF\\helpers\\SourceGenerators\\SourceGenerators.Attributes\\SourceGenerators.Attributes.csproj",
   "expectedPackageFiles": [
-    "/Users/lorenzomarchisio/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "/Users/lorenzomarchisio/.nuget/packages/netstandard.library/2.0.3/netstandard.library.2.0.3.nupkg.sha512"
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\l.marchisio.2268\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
   ],
   "logs": []
 }

@@ -43,12 +43,11 @@ namespace Wheater.Commons.DB
 
         public DataTable ExecuteQuery(SqlCommand command)
         {
-			SqlConnection connection;
-            var connected = TryInitConnection(out connection);
+            var connected = TryInitConnection(out var connection);
 
             if (!connected)
             {
-                return default(DataTable);
+                return default;
             }
 
             using (connection)
@@ -67,8 +66,7 @@ namespace Wheater.Commons.DB
 
         public int ExecuteNonQuery(SqlCommand command)
         {
-			SqlConnection connection;
-            var connected = TryInitConnection(out connection);
+            var connected = TryInitConnection(out var connection);
 
             if (!connected)
             {
@@ -85,8 +83,7 @@ namespace Wheater.Commons.DB
 
         public object ExecuteScalar(SqlCommand command)
         {
-			SqlConnection connection;
-            var connected = TryInitConnection(out connection);
+            var connected = TryInitConnection(out var connection);
 
             if (!connected)
             {
