@@ -22,7 +22,14 @@ from AUTO, COLORI, MODELLI
 where 
 	AUTO.idModello = MODELLI.idModello 
 	and AUTO.idColore = COLORI.idColore
-	and AUTO.targa = 'AB342CH';   
+	and AUTO.targa = 'AB342CH';
+-- or 
+select cilindrata, prezzo, colore, modello
+from AUTO
+	inner join MODELLI on AUTO.idModello = MODELLI.idModello
+	inner join COLORI on AUTO.idColore = COLORI.idColori 
+where 
+	targa = 'AB342CH';  
 
 
 -- 4) vis. tutti i dati delle auto mercedes gialle
@@ -37,6 +44,15 @@ where
 	and idColore = (select distinct idColore 
 					from COLORI 
 					where colore = 'nero');
+-- or
+select *
+from AUTO, MODELLI, MARCHE, COLORI
+where 
+	MARCHE.marca = 'fiat'
+	and COLORE.colore = 'nero'
+	and AUTO.IdModello = MODELLI.idModello
+	and MODELLI.idMarca = MARCHE.idMarca
+	and AUTO.idColore = COLORI.idColore;
 
 
 -- 5) vis per ogni marca il totale importo escludendo le marche con 1 sola auto
@@ -47,7 +63,6 @@ where
 	and MODELLI.idMarca = MARCHE.idMarca
 group by marca
 having count(*) > 1;
-
 
 -- 6) vis targa e modello delle auto di colore rosso che costano meno di 15000
 select targa, modello, prezzo
@@ -61,9 +76,9 @@ where
 
 
 -- 7) i dati dell’auto più costosa
-select top 1 * 
+select top 1 with ties * 
 from AUTO
-order by prezzo;
+order by prezzo desc;
 
 
 -- 8) i dati delle auto che costano meno del costo medio
