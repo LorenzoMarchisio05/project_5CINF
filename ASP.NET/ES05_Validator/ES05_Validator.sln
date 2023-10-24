@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32901.215
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES05_Validator", "ES05_Validator\ES05_Validator.csproj", "{842914A6-872B-4CE3-B48C-134D5673FA87}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ES05_Validator.Controllers", "ES05_Validator.Controllers\ES05_Validator.Controllers.csproj", "{695F2A2E-7A82-4D9A-A231-CD3A6BCED0E5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{842914A6-872B-4CE3-B48C-134D5673FA87}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{842914A6-872B-4CE3-B48C-134D5673FA87}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{842914A6-872B-4CE3-B48C-134D5673FA87}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{842914A6-872B-4CE3-B48C-134D5673FA87}.Release|Any CPU.Build.0 = Release|Any CPU
+		{695F2A2E-7A82-4D9A-A231-CD3A6BCED0E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{695F2A2E-7A82-4D9A-A231-CD3A6BCED0E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{695F2A2E-7A82-4D9A-A231-CD3A6BCED0E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{695F2A2E-7A82-4D9A-A231-CD3A6BCED0E5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9B50C0A6-FAD0-4D56-9FFA-17F9FDAC2725}
+	EndGlobalSection
+EndGlobal

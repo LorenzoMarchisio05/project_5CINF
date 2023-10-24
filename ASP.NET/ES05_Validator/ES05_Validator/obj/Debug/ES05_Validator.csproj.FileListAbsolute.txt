@@ -1,0 +1,10 @@
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES05_Validator\ES05_Validator\bin\ES05_Validator.dll.config
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES05_Validator\ES05_Validator\bin\ES05_Validator.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES05_Validator\ES05_Validator\bin\ES05_Validator.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES05_Validator\ES05_Validator\bin\ES05_Validator.Controllers.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES05_Validator\ES05_Validator\bin\ES05_Validator.Controllers.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES05_Validator\ES05_Validator\obj\Debug\ES05_Validator.csproj.AssemblyReference.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES05_Validator\ES05_Validator\obj\Debug\ES05_Validator.csproj.CoreCompileInputs.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES05_Validator\ES05_Validator\obj\Debug\ES05_Validator.csproj.CopyComplete
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES05_Validator\ES05_Validator\obj\Debug\ES05_Validator.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES05_Validator\ES05_Validator\obj\Debug\ES05_Validator.pdb
