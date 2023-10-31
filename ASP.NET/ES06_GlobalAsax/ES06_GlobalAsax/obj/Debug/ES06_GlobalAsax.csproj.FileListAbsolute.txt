@@ -1,0 +1,7 @@
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES06_GlobalAsax\ES06_GlobalAsax\bin\ES06_GlobalAsax.dll.config
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES06_GlobalAsax\ES06_GlobalAsax\bin\ES06_GlobalAsax.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES06_GlobalAsax\ES06_GlobalAsax\bin\ES06_GlobalAsax.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES06_GlobalAsax\ES06_GlobalAsax\obj\Debug\ES06_GlobalAsax.csproj.AssemblyReference.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES06_GlobalAsax\ES06_GlobalAsax\obj\Debug\ES06_GlobalAsax.csproj.CoreCompileInputs.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES06_GlobalAsax\ES06_GlobalAsax\obj\Debug\ES06_GlobalAsax.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES06_GlobalAsax\ES06_GlobalAsax\obj\Debug\ES06_GlobalAsax.pdb

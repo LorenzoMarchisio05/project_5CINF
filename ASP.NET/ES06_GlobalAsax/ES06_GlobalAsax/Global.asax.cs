@@ -1,27 +1,33 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Security;
 using System.Web.SessionState;
-using System.Web.UI;
 
-namespace ES05_Validator
+namespace ES06_GlobalAsax
 {
     public class Global : System.Web.HttpApplication
     {
 
         protected void Application_Start(object sender, EventArgs e)
         {
-            ScriptManager.ScriptResourceMapping.AddDefinition("jquery", new ScriptResourceDefinition
+            if(int.TryParse(ConfigurationManager.AppSettings.Get("counterVisite"), out var counterVisite)) 
             {
-                Path = "~/Scripts/jquery-3.7.1.min.js",
-            });
+                Application.Add("counterVisite", counterVisite);
+            }
+
+            Application.Add("counterUtenti", 0);
         }
 
         protected void Session_Start(object sender, EventArgs e)
         {
-            
+            var counterVisite = Convert.ToInt32(Application["counterVisite"]);
+            Application["counterVisite"] = counterVisite + 1;
+
+            var counterUtenti = Convert.ToInt32(Application["counterUtenti"]);
+            Application["counterUtenti"] = counterUtenti + 1;
         }
 
         protected void Application_BeginRequest(object sender, EventArgs e)
@@ -41,12 +47,13 @@ namespace ES05_Validator
 
         protected void Session_End(object sender, EventArgs e)
         {
-
+            var counterUtenti = Convert.ToInt32(Application["counterUtenti"]);
+            Application["counterUtenti"] = counterUtenti - 1;
         }
 
         protected void Application_End(object sender, EventArgs e)
         {
-
+           
         }
     }
 }
