@@ -27,7 +27,7 @@ create table TipiPrestazioni(
 --MATERIE (IdMateria, Nome)
 create table Materie(
 	IdMateria int primary key identity(1,1),
-	Nome varchar(100) not null,
+	Materia varchar(100) not null,
 );
 
 --DISPONIBILITA (IdInsegna, IdSocio, IdMateria)
@@ -50,6 +50,7 @@ create table Prestazioni (
 	IdRicevente int not null,
 	IdTipo int not null,
 	IdMateria int not null,
+	Erogata bit constraint dfl_Erogata default 0,
 
 	constraint chk_NOre check (NOre > 0),
 	constraint chk_IdOfferenteDiversoIdRicevente check (IdOfferente <> idRicevente),
@@ -59,6 +60,10 @@ create table Prestazioni (
 	foreign key (IdMateria) references Materie(IdMateria),
 );
 
+go; -- DELETE TRIGGER 
+
+drop trigger Trigger_ControlloMateriaInseritaPrestazione;
+drop trigger Trigger_AggiornaSocioDopoInserimentoPrestazione;
 
 go; -- TRIGGERS
 
@@ -90,17 +95,21 @@ begin
 	declare @ore int;
 	declare @idErogatore int;
 	declare @idRicevente int;
+	declare @erogata bit;
 
-	select @ore = NOre, @idErogatore = IdOfferente, @idRicevente = IdRicevente 
+	select @ore = NOre, @idErogatore = IdOfferente, @idRicevente = IdRicevente, @erogata = Erogata 
 	from inserted;
 
-	update Soci
-	set OreErogate = OreErogate + @ore
-	where IdSocio = @idErogatore;
+	if(@erogata = 1) 
+	begin
+		update Soci
+		set OreErogate = OreErogate + @ore
+		where IdSocio = @idErogatore;
 
-	update Soci
-	set OreRicevute = OreRicevute + @ore
-	where IdSocio = @idRicevente;
+		update Soci
+		set OreRicevute = OreRicevute + @ore
+		where IdSocio = @idRicevente;
+	end;
 end;
 
 
@@ -134,7 +143,7 @@ values
 select * from TipiPrestazioni;
 
 insert into Materie
-(Nome)
+(Materia)
 values
 ('Italiano'),
 ('Storia'),
