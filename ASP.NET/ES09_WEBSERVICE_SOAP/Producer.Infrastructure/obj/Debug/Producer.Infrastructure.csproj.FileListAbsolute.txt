@@ -1,0 +1,6 @@
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Producer.Infrastructure\bin\Debug\Producer.Infrastructure.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Producer.Infrastructure\bin\Debug\Producer.Infrastructure.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Producer.Infrastructure\obj\Debug\Producer.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Producer.Infrastructure\obj\Debug\Producer.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Producer.Infrastructure\obj\Debug\Producer.Infrastructure.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Producer.Infrastructure\obj\Debug\Producer.Infrastructure.pdb

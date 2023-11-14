@@ -1,0 +1,10 @@
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Consumer\bin\Consumer.View.dll.config
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Consumer\bin\Consumer.View.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Consumer\bin\Consumer.View.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Consumer\bin\Consumer.Infrastructure.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Consumer\bin\Consumer.Infrastructure.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Consumer\obj\Debug\Consumer.View.csproj.AssemblyReference.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Consumer\obj\Debug\Consumer.View.csproj.CoreCompileInputs.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Consumer\obj\Debug\Consumer.View.csproj.CopyComplete
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Consumer\obj\Debug\Consumer.View.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\ASP.NET\ES09_WEBSERVICE_SOAP\Consumer\obj\Debug\Consumer.View.pdb
