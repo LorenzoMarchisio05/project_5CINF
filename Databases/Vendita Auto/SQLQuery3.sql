@@ -62,7 +62,7 @@ go;
 -- Bloccare l’inserimento di un’auto con stesso modello, colore e cilindrata
 create trigger Trigger_InserimentoAutoModelloColoreCilindrata 
 on [AUTO]
-instead of insert 
+instead of insert, update
 as
 begin
 	declare @idModello int;
@@ -89,21 +89,22 @@ go;
 -- Consentire l’inserimento di un’auto con targa che ha le prime 2 lettere da CB in avanti
 create trigger Trigger_InserimentoAutoTarga
 on [AUTO]
-for insert
+for insert, update
 as
 begin
 	declare @targa varchar(7);
 
 	select @targa = targa from inserted;
-
+	
 
 	if(SUBSTRING(@targa, 1, 2) < 'CB') 
 	begin
-		print 'targa invalida';
+		print 'targa non valida';
 		rollback transaction;
 	end;
 end;
 
+go;
 -- Visualizzare tutti i dati delle auto che hanno il prezzo superiore a tutte
 select * 
 from auto 

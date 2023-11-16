@@ -89,7 +89,7 @@ go;
 
 create trigger Trigger_AggiornaSocioDopoInserimentoPrestazione
 	on Prestazioni
-	after insert
+	after insert, update
 as
 begin
 	declare @ore int;
@@ -97,7 +97,10 @@ begin
 	declare @idRicevente int;
 	declare @erogata bit;
 
-	select @ore = NOre, @idErogatore = IdOfferente, @idRicevente = IdRicevente, @erogata = Erogata 
+	select @ore = NOre, 
+			@idErogatore = IdOfferente, 
+			@idRicevente = IdRicevente, 
+			@erogata = Erogata 
 	from inserted;
 
 	if(@erogata = 1) 
@@ -130,7 +133,8 @@ insert into Soci
 values 
 ('Admin', 'Nome', 'admin@admin.com', 'admin', 1, null),
 ('Cognome', 'Nome', 'cognome.nome@email.com', 'password', 2, 1),
-('Cognome1', 'Nome1', 'cognome1.nome1@email.com', 'password1234', 2, NULL);
+('Cognome1', 'Nome1', 'cognome1.nome1@email.com', 'password1234', 2, NULL),
+('Cognome2', 'Nome2', 'cognome2.nome2@email.com', '1234', 2);
 
 select * from Soci;
 
@@ -166,12 +170,16 @@ values
 (3, 5),
 (3, 6),
 (3, 7),
-(3, 8);
+(3, 8),
+(4, 1);
 
 select * from Disponibilita;
 
 insert into Prestazioni
 (DataOraInizio, NOre, IdOfferente, IdRicevente, IdTipo, IdMateria)
 values
-('20150713 10:00:00 AM', 2, 2, 3, 1, 1)
-select * from Prestazioni;
+('20150713 10:00:00 AM', 2, 2, 3, 1, 1),
+('20150713 11:00:00 AM', 2, 2, 4, 1, 2),
+('20150713 9:00:00 AM', 2, 2, 3, 1, 3),
+('20150713 6:00:00 AM', 2, 3, 2, 1, 5),
+('20150813 10:00:00 AM', 5, 4, 2, 1, 1);
