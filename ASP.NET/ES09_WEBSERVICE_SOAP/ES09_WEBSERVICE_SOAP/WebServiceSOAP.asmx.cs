@@ -58,8 +58,58 @@ namespace ES09_WEBSERVICE_SOAP
             return dataTable;
         }
 
+        [WebMethod]
+        public DataTable Alunni(string idClasse)
+        {
+            var command = new SqlCommand
+            {
+                CommandType = CommandType.Text,
+                CommandText = SELECT_ALUNNI_ID_CLASSE,
+                Parameters =
+                {
+                    new SqlParameter("@idClasse", idClasse),
+                },
+            };
+
+            var dataTable = _adoNetController.ExecuteQuery(command);
+            dataTable.TableName = "dtAlunni";
+
+
+            return dataTable;
+        }
+
+        [WebMethod]
+        public int InserisciAlunno(string idClasse, string nome, string cognome)
+        {
+            var command = new SqlCommand
+            {
+                CommandType = CommandType.Text,
+                CommandText = INSERT_INTO_ALUNNI,
+                Parameters =
+                {
+                    new SqlParameter("@idClasse", idClasse),
+                    new SqlParameter("@nome", nome),
+                    new SqlParameter("@cognome", cognome),
+                },
+            };
+
+            var id = (int)_adoNetController.ExecuteScalar(command); 
+
+            return id;
+        }
+
         private const string SELECT_IDCLASSE_CLASSE = @"SELECT idClasse, classe
                                                         FROM classi
                                                         ORDER BY classe";
+
+        private const string SELECT_ALUNNI_ID_CLASSE = @"SELECT idAlunno, cognome, nome
+                                                        FROM alunni
+                                                        WHERE idClasse = @idClasse";
+
+        private const string INSERT_INTO_ALUNNI = @"INSERT INTO ALUNNI (idClasse, cognome, nome)
+                                                        VALUES
+                                                        (@idClasse, @cognome, @nome);
+                                                    SELECT SCOPE_IDENTITY();";
+
     }
 }

@@ -13,13 +13,22 @@ namespace Consumer.View
         {
             if(!Page.IsPostBack)
             {
-                cmbClassi.DataSource = new localhost.WebServiceSOAP().Classi();
+                var service = new localhost.WebServiceSOAP();
+
+                cmbClassi.DataSource = service.Classi();
                 cmbClassi.DataValueField = "idClasse";
                 cmbClassi.DataTextField = "classe";
                 cmbClassi.DataBind();
             }
         }
 
+        protected void cmbClassi_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var id = cmbClassi.SelectedValue;
 
+            var service = new localhost.WebServiceSOAP();
+
+            var datatable = service.Alunni(id);
+        }
     }
 }

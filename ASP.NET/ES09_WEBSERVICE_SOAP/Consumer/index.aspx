@@ -12,7 +12,7 @@
         <div>
             <h1>Consumer says hello</h1>
             <asp:Label ID="lblClasse" runat="server" Text="Classe"></asp:Label>
-            <asp:DropDownList ID="cmbClassi" runat="server"></asp:DropDownList>
+            <asp:DropDownList ID="cmbClassi" runat="server" OnSelectedIndexChanged="cmbClassi_SelectedIndexChanged" AutoPostBack="true"></asp:DropDownList>
             
             <hr />
 
