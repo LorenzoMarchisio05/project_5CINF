@@ -1,0 +1,9 @@
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\BancaDelTempo.Controller.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\BancaDelTempo.Controller.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\BancaDelTempo.Model.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\BancaDelTempo.Model.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\obj\Debug\BancaDelTempo.Controller.csproj.AssemblyReference.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\obj\Debug\BancaDelTempo.Controller.csproj.CoreCompileInputs.cache
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\obj\Debug\BancaDelTempo.Controller.csproj.CopyComplete
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\obj\Debug\BancaDelTempo.Controller.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\obj\Debug\BancaDelTempo.Controller.pdb
