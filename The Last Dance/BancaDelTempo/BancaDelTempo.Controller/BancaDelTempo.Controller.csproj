@@ -31,6 +31,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
@@ -42,13 +45,19 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AdoNetController.cs" />
+    <Compile Include="DBAccesController.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SocioController.cs" />
+    <Compile Include="SocioLoginController.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\BancaDelTempo.Model\BancaDelTempo.Model.csproj">
       <Project>{466dfa6d-b8aa-4c58-9e22-cb48e2c09db7}</Project>
       <Name>BancaDelTempo.Model</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

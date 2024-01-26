@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo.Model", "Banc
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo.Controller", "BancaDelTempo.Controller\BancaDelTempo.Controller.csproj", "{A6C8BF8E-9689-4877-B7A7-ADF47663EBA6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo.Client", "BancaDelTempo.Client\BancaDelTempo.Client.csproj", "{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{A6C8BF8E-9689-4877-B7A7-ADF47663EBA6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A6C8BF8E-9689-4877-B7A7-ADF47663EBA6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A6C8BF8E-9689-4877-B7A7-ADF47663EBA6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

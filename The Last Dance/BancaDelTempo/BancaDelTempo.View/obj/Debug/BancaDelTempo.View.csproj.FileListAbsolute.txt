@@ -10,3 +10,14 @@ C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\Ban
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\obj\Debug\BancaDelTempo.View.csproj.CopyComplete
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\obj\Debug\BancaDelTempo.View.dll
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\obj\Debug\BancaDelTempo.View.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\bin\Newtonsoft.Json.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\bin\System.Net.Http.Formatting.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\bin\System.Web.Http.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\bin\System.Web.Http.WebHost.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\bin\Newtonsoft.Json.xml
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\bin\System.Net.Http.Formatting.xml
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\bin\System.Web.Http.xml
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\bin\System.Web.Http.WebHost.xml
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\bin\it\System.Net.Http.Formatting.resources.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\bin\it\System.Web.Http.resources.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.View\bin\it\System.Web.Http.WebHost.resources.dll

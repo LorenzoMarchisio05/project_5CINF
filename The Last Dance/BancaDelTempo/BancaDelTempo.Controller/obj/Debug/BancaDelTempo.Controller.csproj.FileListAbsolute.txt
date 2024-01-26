@@ -7,3 +7,5 @@ C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\Ban
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\obj\Debug\BancaDelTempo.Controller.csproj.CopyComplete
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\obj\Debug\BancaDelTempo.Controller.dll
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\obj\Debug\BancaDelTempo.Controller.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Newtonsoft.Json.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Newtonsoft.Json.xml

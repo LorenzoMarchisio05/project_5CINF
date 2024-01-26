@@ -4,3 +4,6 @@ C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\Ban
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Model\obj\Debug\BancaDelTempo.Model.csproj.CoreCompileInputs.cache
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Model\obj\Debug\BancaDelTempo.Model.dll
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Model\obj\Debug\BancaDelTempo.Model.pdb
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Model\bin\Debug\Newtonsoft.Json.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Model\bin\Debug\Newtonsoft.Json.xml
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Model\obj\Debug\BancaDelTempo.Model.csproj.CopyComplete
