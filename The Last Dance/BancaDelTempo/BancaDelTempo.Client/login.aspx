@@ -25,6 +25,10 @@
             
             <asp:Button ID="btnLogin" runat="server" Text="Login" OnClick="btnLogin_Click" />
             <br />
+
+            <asp:Label ID="lblMessaggio" Text="" runat="server"/>
+            <br />
+
             <asp:HyperLink ID="RegisterLink" runat="server" NavigateUrl="~/register.aspx">Registrati</asp:HyperLink>
         </div>
     </form>

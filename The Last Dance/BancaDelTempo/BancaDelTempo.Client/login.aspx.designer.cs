@@ -69,6 +69,15 @@ namespace BancaDelTempo.Client
         protected global::System.Web.UI.WebControls.Button btnLogin;
 
         /// <summary>
+        /// Controllo lblMessaggio.
+        /// </summary>
+        /// <remarks>
+        /// Campo generato automaticamente.
+        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMessaggio;
+
+        /// <summary>
         /// Controllo RegisterLink.
         /// </summary>
         /// <remarks>

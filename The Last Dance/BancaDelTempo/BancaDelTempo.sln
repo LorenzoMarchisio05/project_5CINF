@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo.View", "BancaDelTempo.View\BancaDelTempo.View.csproj", "{16E48915-2331-410D-BA00-E8C24A6F7F90}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo.Model", "BancaDelTempo.Model\BancaDelTempo.Model.csproj", "{466DFA6D-B8AA-4C58-9E22-CB48E2C09DB7}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo.Controller", "BancaDelTempo.Controller\BancaDelTempo.Controller.csproj", "{A6C8BF8E-9689-4877-B7A7-ADF47663EBA6}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo.Client", "BancaDelTempo.Client\BancaDelTempo.Client.csproj", "{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo", "BancaDelTempo\BancaDelTempo.csproj", "{C6DAC946-324F-4452-B29B-50099D664089}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{16E48915-2331-410D-BA00-E8C24A6F7F90}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{16E48915-2331-410D-BA00-E8C24A6F7F90}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{16E48915-2331-410D-BA00-E8C24A6F7F90}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{16E48915-2331-410D-BA00-E8C24A6F7F90}.Release|Any CPU.Build.0 = Release|Any CPU
 		{466DFA6D-B8AA-4C58-9E22-CB48E2C09DB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{466DFA6D-B8AA-4C58-9E22-CB48E2C09DB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{466DFA6D-B8AA-4C58-9E22-CB48E2C09DB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -33,6 +29,10 @@ Global
 		{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6DAC946-324F-4452-B29B-50099D664089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6DAC946-324F-4452-B29B-50099D664089}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6DAC946-324F-4452-B29B-50099D664089}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6DAC946-324F-4452-B29B-50099D664089}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
