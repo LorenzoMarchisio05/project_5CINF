@@ -1,25 +1,29 @@
-﻿using System;
+﻿using BancaDelTempo.Controller;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Web;
+using System.Web.Services;
 using System.Web.UI;
 using System.Web.UI.WebControls;
-using System.Net.Http;
-using BancaDelTempo.Controller;
-using Newtonsoft.Json;
 
 namespace BancaDelTempo.Client
 {
-    public partial class login : System.Web.UI.Page
+    public partial class login1 : System.Web.UI.Page
     {
         private readonly string webService = "http://localhost:5011/";
 
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            if(Session["logged"] is bool logged && logged)
+            {
+                return;
+            }
         }
 
-        protected async void btnLogin_Click(object sender, EventArgs e)
+        protected void btnLogin_Click(object sender, EventArgs e)
         {
             try
             {
@@ -33,14 +37,20 @@ namespace BancaDelTempo.Client
 
                 var hash = EncryptionController.Encrypt(email, password);
 
-                var response = await client.PostAsJsonAsync("api/login/", hash);
+                var httpPromise = client.PostAsJsonAsync("api/login/", hash);
+                httpPromise.Wait();
 
-                if(!response.IsSuccessStatusCode)
+                var response = httpPromise.Result;
+
+                if (!response.IsSuccessStatusCode)
                 {
                     throw new Exception("Errore login " + response.StatusCode);
                 }
 
-                var content = await response.Content.ReadAsStringAsync();
+                var jsonPromise = response.Content.ReadAsStringAsync();
+                jsonPromise.Wait();
+
+                var content = jsonPromise.Result;
                 var parsed = JsonConvert.DeserializeObject(content);
 
                 lblMessaggio.Text = parsed.ToString();

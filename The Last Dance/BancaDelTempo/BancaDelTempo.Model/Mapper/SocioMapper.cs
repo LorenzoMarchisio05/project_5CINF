@@ -33,7 +33,7 @@ namespace BancaDelTempo.Model.Mapper
                     Convert.ToUInt32(row[5]),
                     Convert.ToUInt32(row[6]),
                     Convert.ToInt32(row[7]),
-                    Convert.ToInt32(row[8] is null ? -1 : row[8])
+                    Convert.ToInt32((row[8] is DBNull || row[8] is null) ? -1 : row[8])
                 );
         }
     }

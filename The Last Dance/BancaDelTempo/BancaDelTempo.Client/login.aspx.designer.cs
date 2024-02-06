@@ -11,17 +11,17 @@ namespace BancaDelTempo.Client
 {
 
 
-    public partial class login
+    public partial class login1
     {
 
         /// <summary>
-        /// Controllo form1.
+        /// Controllo RegisterLink.
         /// </summary>
         /// <remarks>
         /// Campo generato automaticamente.
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
-        protected global::System.Web.UI.HtmlControls.HtmlForm form1;
+        protected global::System.Web.UI.WebControls.HyperLink RegisterLink;
 
         /// <summary>
         /// Controllo lblEmail.
@@ -76,14 +76,5 @@ namespace BancaDelTempo.Client
         /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Label lblMessaggio;
-
-        /// <summary>
-        /// Controllo RegisterLink.
-        /// </summary>
-        /// <remarks>
-        /// Campo generato automaticamente.
-        /// Per la modifica, spostare la dichiarazione di campo dal file di progettazione al file code-behind.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.HyperLink RegisterLink;
     }
 }

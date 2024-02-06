@@ -11,8 +11,9 @@ namespace BancaDelTempo.Controller
     {
         public static string Encrypt(string email, string password)
         {
-            var bytes = $"{email}{password}";
-            return "";
+            var bytes = Encoding.UTF8.GetBytes($"{email}{password}");
+            var hash = SHA256.Create().ComputeHash(bytes);
+            return string.Join("", hash.Select(c => ((int)c).ToString("X2")));
         }
     }
 }

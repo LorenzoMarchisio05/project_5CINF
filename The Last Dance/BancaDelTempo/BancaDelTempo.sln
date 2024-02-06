@@ -9,7 +9,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo.Controller", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo.Client", "BancaDelTempo.Client\BancaDelTempo.Client.csproj", "{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo", "BancaDelTempo\BancaDelTempo.csproj", "{C6DAC946-324F-4452-B29B-50099D664089}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BancaDelTempo.Api", "BancaDelTempo.Api\BancaDelTempo.Api.csproj", "{65EA347F-419A-4AF7-AA9A-60C29F33CEEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CFA36AE-F8B0-4386-AE1E-29215606E8B2}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C6DAC946-324F-4452-B29B-50099D664089}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C6DAC946-324F-4452-B29B-50099D664089}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C6DAC946-324F-4452-B29B-50099D664089}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C6DAC946-324F-4452-B29B-50099D664089}.Release|Any CPU.Build.0 = Release|Any CPU
+		{65EA347F-419A-4AF7-AA9A-60C29F33CEEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65EA347F-419A-4AF7-AA9A-60C29F33CEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65EA347F-419A-4AF7-AA9A-60C29F33CEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65EA347F-419A-4AF7-AA9A-60C29F33CEEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

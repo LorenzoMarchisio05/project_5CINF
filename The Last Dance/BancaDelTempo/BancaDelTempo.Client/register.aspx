@@ -1,16 +1,13 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="BancaDelTempo.Client.register" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Master.Master" AutoEventWireup="true" CodeBehind="register.aspx.cs" Inherits="BancaDelTempo.Client.register" %>
+<asp:Content ID="head" ContentPlaceHolderID="head" runat="server">
+    <h1>
+        Benevenuto nella registrazione
+    </h1>
+</asp:Content>
+<asp:Content ID="links" ContentPlaceHolderID="links" runat="server">
+    <asp:HyperLink ID="RegisterLink" runat="server" NavigateUrl="~/login.aspx">Login</asp:HyperLink>
+</asp:Content>
 
-<!DOCTYPE html>
+<asp:Content ID="main" ContentPlaceHolderID="main" runat="server">
 
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
-    <title></title>
-</head>
-<body>
-    <form id="form1" runat="server">
-        <div>
-        </div>
-    </form>
-</body>
-</html>
+</asp:Content>

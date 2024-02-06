@@ -33,5 +33,21 @@ namespace BancaDelTempo.Controller
             return _soci;
         }
 
+        public bool SocioExists(string hash)
+        {
+            var command = new SqlCommand
+            {
+                CommandType = CommandType.Text,
+                CommandText = "SELECT 1 FROM SOCI WHERE pwd = @hash",
+                Parameters =
+                {
+                    new SqlParameter("@hash", hash),
+                },
+            };
+
+            var result = _dbController.ExecuteNonQuery(command);
+
+            return result == 1;
+        }
     }
 }

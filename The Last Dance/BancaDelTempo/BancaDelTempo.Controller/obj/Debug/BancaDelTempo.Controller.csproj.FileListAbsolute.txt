@@ -13,7 +13,6 @@ C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\Ban
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Azure.Core.dll
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Azure.Identity.dll
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Microsoft.Data.SqlClient.dll
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Microsoft.Identity.Client.dll
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.dll
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Microsoft.IdentityModel.Abstractions.dll
@@ -43,8 +42,6 @@ C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\Ban
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Azure.Core.xml
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Azure.Identity.xml
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Microsoft.Data.SqlClient.pdb
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Microsoft.Data.SqlClient.xml
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Microsoft.Identity.Client.xml
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Microsoft.Identity.Client.Extensions.Msal.xml
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\Microsoft.IdentityModel.Abstractions.xml
@@ -70,13 +67,5 @@ C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\Ban
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\System.Text.Json.xml
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\System.ValueTuple.xml
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\de\Microsoft.Data.SqlClient.resources.dll
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\es\Microsoft.Data.SqlClient.resources.dll
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\fr\Microsoft.Data.SqlClient.resources.dll
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\it\Microsoft.Data.SqlClient.resources.dll
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\ja\Microsoft.Data.SqlClient.resources.dll
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\ko\Microsoft.Data.SqlClient.resources.dll
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\pt-BR\Microsoft.Data.SqlClient.resources.dll
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\ru\Microsoft.Data.SqlClient.resources.dll
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\zh-Hans\Microsoft.Data.SqlClient.resources.dll
-C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\System.Data.SqlClient.dll
+C:\Users\l.marchisio.2268\Desktop\project_5CINF\The Last Dance\BancaDelTempo\BancaDelTempo.Controller\bin\Debug\System.Data.SqlClient.xml
