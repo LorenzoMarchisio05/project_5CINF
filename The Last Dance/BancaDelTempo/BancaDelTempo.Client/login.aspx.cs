@@ -37,7 +37,7 @@ namespace BancaDelTempo.Client
 
                 var hash = EncryptionController.Encrypt(email, password);
 
-                var httpPromise = client.PostAsJsonAsync("api/login/", hash);
+                var httpPromise = client.PostAsJsonAsync("http://localhost:5185/api/login", hash);
                 httpPromise.Wait();
 
                 var response = httpPromise.Result;
@@ -51,9 +51,14 @@ namespace BancaDelTempo.Client
                 jsonPromise.Wait();
 
                 var content = jsonPromise.Result;
-                var parsed = JsonConvert.DeserializeObject(content);
+                dynamic parsed = JsonConvert.DeserializeObject(content);
 
-                lblMessaggio.Text = parsed.ToString();
+                lblMessaggio.Text = $"{parsed.email} - Logged in (Level ${parsed.tipoSocio})";
+
+                Session["email"] = parsed.email;
+                Session["tipoSocio"] = parsed.tipoSocio;
+
+                Response.Redirect("home.aspx");
             }
             catch (Exception ex)
             {

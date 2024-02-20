@@ -33,21 +33,41 @@ namespace BancaDelTempo.Controller
             return _soci;
         }
 
-        public bool SocioExists(string hash)
+        public object TryLogin(string hash)
         {
             var command = new SqlCommand
             {
                 CommandType = CommandType.Text,
-                CommandText = "SELECT 1 FROM SOCI WHERE pwd = @hash",
+                CommandText = "SELECT cognome, nome, email, idTipo as 'tipoSocio' FROM SOCI WHERE pwd = @hash",
                 Parameters =
                 {
                     new SqlParameter("@hash", hash),
                 },
             };
 
-            var result = _dbController.ExecuteNonQuery(command);
+            var result = _dbController.ExecuteQuery(command);
 
-            return result == 1;
+            if(result.Rows.Count != 1)
+            {
+                return new
+                {
+                    Authorized = false,
+                    Message = "Invalid login credentials",
+                };
+            }
+
+            var row = result.Rows[0];
+
+            return new
+            {
+                Authorized = true,
+                Message = "Login Success",
+
+                Cognome = row.ItemArray[0].ToString(),
+                Nome = row.ItemArray[1].ToString(),
+                Email = row.ItemArray[2].ToString(),
+                TipoSocio = Convert.ToInt32(row.ItemArray[3]),
+            };
         }
     }
 }

@@ -20,13 +20,9 @@ if (app.Environment.IsDevelopment())
 }
 
 
-app.MapGet("/soci", (SocioController controller) => controller.GetSoci());
+app.MapGet("api/soci", (SocioController controller) => controller.GetSoci());
 
-app.MapPost("api/login/", (SocioController controller, [FromBody] string hash) => {
-    var exists = controller.SocioExists(hash);
-
-    return exists;
-});
+app.MapPost("api/login", (SocioController controller, [FromBody] string hash) => controller.TryLogin(hash));
 
 
 app.Run();

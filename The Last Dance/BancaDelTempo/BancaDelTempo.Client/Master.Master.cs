@@ -11,7 +11,18 @@ namespace BancaDelTempo.Client
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            var email = Session["email"]?.ToString();
 
+            if(string.IsNullOrEmpty(email))
+            {
+                lblUsername.Text = "";
+                lblUsername.Visible = false;
+            }
+            else
+            {
+                lblUsername.Text = email;
+                lblUsername.Visible = true;
+            }
         }
     }
 }
